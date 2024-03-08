@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import GSLib.Utilities.FileManager;
+import GSFileManager.FileManager;
 
 public class FormatData {
   static boolean isNum(String str) {
