@@ -94,7 +94,7 @@ public class FormatData {
       String file = myManager.readFile(filepath_in);
       String fileData[] = file.split("\n");
       StringBuilder fileContent = new StringBuilder(
-          String.format("USE %s;\nINSERT INTO %s;\nVALUES\n", database, table_name));
+          String.format("USE %s;\nINSERT INTO %s\nVALUES\n", database, table_name));
 
       // Constructing the lines to be added
       for (int j = 1; j < fileData.length; j++) {
